@@ -1,0 +1,107 @@
+.illu-section .btn1 {
+    padding: 10px 25px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.illu-section p{
+    opacity: 70%;
+}
+
+.illu-section h2 {
+    line-height: 32px;
+}
+
+.illu-section p, .btn-div {
+    margin-top: 20px;
+}
+
+.illu-section .btn1:last-of-type {
+    margin-left: 25px;
+}
+
+.illu-section .color-one {
+    background: #00B5FF;
+    color: #fff;
+}
+
+.illu-section .basic-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.illu-section .card-class:first-of-type {
+    width: 35%
+}
+
+.illu-section .card-class:last-of-type {
+    width: 60%;
+   margin-left: auto;
+}
+
+.illu-section .card-class img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+/* media quiries for resposnsive layout for Illustration component */
+
+@media screen and (min-width: 940px) and (max-width: 1160px) {
+
+    .illu-section .card-class:first-of-type {
+        width: 40%
+    }
+    
+    .illu-section .card-class:last-of-type {
+        width: 50%;
+        margin-left: auto;
+    }
+    
+}
+
+@media screen and (max-width: 940px) {
+    .illu-section .card-class{
+        margin-top: 10%;
+    }
+
+    .illu-section .card-class:first-of-type {
+        width: 100%;
+    }
+    
+    .illu-section .card-class:last-of-type {
+        width: 100%;
+        
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .illu-section .btn1 {
+        max-width: 200px;
+        padding: 7px 12px;
+        font-size: medium;
+        font-weight: 480;
+    }
+    
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 940px) {
+    .illu-section .img-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 346px){
+    .illu-section .btn1:last-of-type {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+

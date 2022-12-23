@@ -1,0 +1,104 @@
+.showcase .btn1 {
+    padding: 10px 25px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.showcase p{
+    opacity: 70%;
+}
+
+.showcase h2 {
+    line-height: 32px;
+}
+
+.showcase p, .btn-div {
+    margin-top: 20px;
+}
+
+.showcase {
+    max-width: fit-content;
+    margin-top: 10%;
+}
+
+.showcase .btn1:last-of-type {
+    margin-left: 25px;
+}
+
+.showcase .color-two {
+    color: white;
+    background-color: #0C1014;
+    border: 1px solid white;
+}
+
+.showcase .card-class {
+    /* responsive grid item styling*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:  all 500ms;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    min-height: 180px;
+  }
+  
+.showcase .basic-grid{
+    display: grid;
+    gap: 1rem;
+
+    /* responsive grid styling*/
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  }
+
+  .showcase img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .showcase .basic-grid{
+        gap: 10rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .showcase .btn1 {
+        display: block;
+        max-width: 200px;
+        padding: 7px 12px;
+        font-size: medium;
+        font-weight: 480;
+    }
+    .showcase .btn1:last-of-type {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .showcase .card-class:last-of-type {
+        margin-top: 10%;
+    }
+
+    .showcase .basic-grid{
+        /* responsive grid styling*/
+        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+      }
+    
+
+}
+
+@media screen and (max-width: 843px)  {
+    .showcase .card-class:last-of-type {
+        margin-top: 10%;
+    }
+
+    .showcase {
+        margin-top: 30%;
+    }   
+
+}

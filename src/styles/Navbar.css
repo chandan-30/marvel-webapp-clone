@@ -1,0 +1,39 @@
+/* Navbar stylings */
+
+.btn-toggle{
+    color: white !important;
+}
+
+.navbar a, li {
+    color: white !important;
+    margin-left: 5px;
+}
+
+.navbar ul {
+    margin-left: auto;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar {
+    margin-left:4%;
+    margin-right: 5%; 
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.navbar li button {
+    background-color: white !important;
+    color: black;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.pale {
+    opacity: 70%;
+}

@@ -6,6 +6,10 @@
 
     A React App which was designed in a way to look similar to marvel website.
 
+### PROJECT URL
+
+    https://melodic-marshmallow-24fbcf.netlify.app/
+
 ### TECH STACK USED
 
     REACT
